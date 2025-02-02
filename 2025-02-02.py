@@ -290,13 +290,13 @@
 #     if a==b+1:
 #         break
 
-brr=[[0]*4 for _ in range(5)]
-for i in range(5):
-    for z in range(1):
-        arr=list(map(int,input().split()))
-    brr.append(arr)
-for i in range(5):
-    b=0
-    for z in brr[i]:
-        b+=z
-    print(b,end=' ')
+# brr=[[0]*4 for _ in range(5)]
+# for i in range(5):
+#     for z in range(1):
+#         arr=list(map(int,input().split()))
+#     brr[i]=arr
+# for i in range(5):
+#     b=0
+#     for z in brr[i]:
+#         b+=z
+#     print(b,end=' ')
